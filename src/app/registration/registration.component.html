@@ -1,0 +1,29 @@
+<form name="reg" action="code_exec.php" method="post">
+    <h3>You Are In Registration Pannel</h3>
+    <div class="form-group">
+      <label for="exampleInputName">Enter Name</label>
+      <input type="text" class="form-control" required id="exampleInputName" placeholder="Enter Name">
+      <label for="exampleInputEmail">Email address</label>
+      <input type="email" class="form-control" required id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Password</label>
+      <input type="password" required class="form-control" id="exampleInputPassword1" placeholder="Password">
+    </div>
+    <div class="form-group">
+      <label for="birthDate" class="col-sm-3 control-label">Date of Birth</label>
+            <input type="date" id="birthDate" class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="exampleInputAddress">Address</label>
+        <input type="text" required class="form-control" id="exampleInputAddress" placeholder="Address">
+      </div>
+    <input type="file" id="inputImage" Name="photo">
+    <label for="role">Choose Role</label>
+    <select>
+      <option value="">Admin</option>
+      <option value="">Employee</option>
+    </select><br>
+    <button class="btn btn-large btn-success" type="submit">Register</button>
+</form>

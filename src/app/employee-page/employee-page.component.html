@@ -1,0 +1,20 @@
+<div class="container">
+	<div class="row">
+		<div class="col-md-offset-2 col-md-8 col-lg-offset-3 col-lg-6">
+    	 <div class="well profile">
+            <div class="col-sm-12">
+                <div >
+                    <img src={{userDetails.profileImage}} alt="userImage" style="height:200px;">
+                    <h2>Name: {{userDetails.name}}</h2>
+                    <p><strong>Email: {{userDetails.email}}</strong></p>
+                    <p><strong>Role: {{userDetails.role}}</strong></p>
+                    <p><strong>DOB: {{userDetails.DOB}}</strong></p>
+                    <p><strong>Address: {{userDetails.address}}</strong></p>
+                </div>            
+            </div>
+    	 </div>                 
+		</div>
+	</div>
+</div>
+
+<button value="Edit Details" (click)="edit()">Edit Details</button>
